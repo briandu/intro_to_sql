@@ -76,7 +76,7 @@ Agricola               |          120
 
 7. Stout Slow Cooker Corned Beef and Veggies
 
-intro_to_sql=# SELECT name, minutes_required FROM recipes ORDER BY minutes_required DESC
+SELECT name, minutes_required FROM recipes ORDER BY minutes_required DESC
 
 name                    | minutes_required
 -------------------------------------------+------------------
@@ -132,3 +132,20 @@ egg_laying =true AND flying <> false;
 ------+----------+------------
  duck | t        | t
 (1 row)
+
+
+12. SELECT name, max_players FROM board_games ORDER BY max_players DESC;
+
+name          | max_players
+------------------------+-------------
+Cards Against Humanity |          30
+Game of Things         |          15
+Arkham Horror          |           8
+7 Wonders              |           7
+7 Wonders              |           7
+Bohnanza               |           7
+Dixit                  |           6
+Carcassonne            |           5
+Sushi Go               |           5
+Agricola               |           5
+Quixo                  |           4
