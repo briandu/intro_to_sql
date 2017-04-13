@@ -2,12 +2,12 @@
 
 1. Marvin and Deep Thought
 
-SELECT * FROM robot
+SELECT * FROM robot;
 
 
 2. C3P0
 
-SELECT * FROM robot
+SELECT * FROM robot;
 
 
 3.
