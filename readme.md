@@ -5,10 +5,12 @@
 SELECT * FROM robot
 Marvin and Deep Thought
 
+
 2.
 
 SELECT * FROM robot
 C3PO
+
 
 3.
 
@@ -21,3 +23,14 @@ t        | Quinoa and Black Beans
 t        | Juicy Roasted Chicken
 t        | Garlic Green Beans
 t        | Stout Slow Cooker Corned Beef and Veggies
+
+
+4.
+
+SELECT COUNT(gluten_free) FROM recipes WHERE
+gluten_free = true;
+
+count
+-------
+    5
+(1 row)
