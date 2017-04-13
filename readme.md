@@ -101,3 +101,12 @@ intro_to_sql=# SELECT name FROM robots WHERE name LIKE 'M%';
  Marvin
  Mr. Butlertron
 (2 rows)
+
+
+9. 3
+
+SELECT COUNT(name) FROM board_games WHERE max_players >= 8;
+ count
+-------
+     3
+(1 row)
