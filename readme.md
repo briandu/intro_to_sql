@@ -90,3 +90,14 @@ Couscous with Olives and Sun-Dried Tomato |               50
 Garlic Green Beans                        |               25
 Vietnamese Rice-Noodle Salad              |               15
 (9 rows)
+
+
+8. Marvin and Mr. Butlertron
+
+intro_to_sql=# SELECT name FROM robots WHERE name LIKE 'M%';
+
+      name
+----------------
+ Marvin
+ Mr. Butlertron
+(2 rows)
