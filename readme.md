@@ -34,3 +34,24 @@ count
 -------
     5
 (1 row)
+
+
+5.
+
+SELECT name, number_of_legs FROM animals ORDE
+R BY number_of_legs DESC;
+
+name       | number_of_legs
+------------------+----------------
+octopus          |              8
+sheep            |              4
+cat              |              4
+cow              |              4
+bat              |              2
+duck             |              2
+owl              |              2
+chicken          |              2
+whale            |              0
+hammerhead shark |              0
+
+(10 rows)
