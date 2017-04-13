@@ -110,3 +110,25 @@ SELECT COUNT(name) FROM board_games WHERE max_players >= 8;
 -------
      3
 (1 row)
+
+
+10. Octopus and duck
+
+SELECT name, swimming, egg_laying FROM animals WHERE swimming = true AND
+egg_laying =true;
+  name   | swimming | egg_laying
+---------+----------+------------
+ octopus | t        | t
+ duck    | t        | t
+(2 rows)
+
+
+11. Duck
+
+SELECT name, swimming, egg_laying FROM animals WHERE swimming = true AND
+egg_laying =true AND flying <> false;
+
+ name | swimming | egg_laying
+------+----------+------------
+ duck | t        | t
+(1 row)
